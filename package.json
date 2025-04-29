@@ -29,6 +29,8 @@
     "startCommand": "pnpm i && pnpm build"
   },
   "resolutions": {
-    "rolldown": "npm:@rolldown/browser@nightly"
+    "rolldown": "npm:@rolldown/browser@nightly",
+    "oxc-transform": "npm:@oxc-transform/binding-wasm32-wasi",
+    "oxc-resolver": "npm:@oxc-resolver/binding-wasm32-wasi"
   }
 }
