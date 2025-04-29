@@ -21,13 +21,12 @@
     "dev": "tsdown --watch"
   },
   "devDependencies": {
-    "@types/node": "^22.15.2",
-    "tsdown": "^0.9.9",
+    "tsdown": "latest",
     "typescript": "^5.8.3"
   },
   "stackblitz": {
-    "installDependencies": true,
-    "startCommand": "pnpm build"
+    "installDependencies": false,
+    "startCommand": "pnpm i && pnpm build"
   },
   "resolutions": {
     "rolldown": "npm:@rolldown/browser@nightly"
