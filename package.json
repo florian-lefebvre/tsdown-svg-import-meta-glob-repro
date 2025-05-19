@@ -1,7 +1,7 @@
 {
   "name": "tsdown-starter-stackblitz",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "description": "tsdown starter for StackBlitz",
   "type": "module",
   "license": "MIT",
@@ -29,8 +29,6 @@
     "startCommand": "pnpm i && pnpm build"
   },
   "resolutions": {
-    "rolldown": "npm:@rolldown/browser@nightly",
-    "oxc-transform": "npm:@oxc-transform/binding-wasm32-wasi",
-    "oxc-resolver": "npm:@oxc-resolver/binding-wasm32-wasi"
+    "rolldown": "npm:@rolldown/browser@nightly"
   }
 }
