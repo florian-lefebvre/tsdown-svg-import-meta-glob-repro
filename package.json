@@ -1,7 +1,7 @@
 {
   "name": "tsdown-starter-stackblitz",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.13.1",
   "description": "tsdown starter for StackBlitz",
   "type": "module",
   "license": "MIT",
@@ -29,6 +29,6 @@
     "startCommand": "pnpm i && pnpm build"
   },
   "resolutions": {
-    "rolldown": "npm:@rolldown/browser@nightly"
+    "rolldown": "npm:@rolldown/browser@latest"
   }
 }
