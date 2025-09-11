@@ -1,11 +1,11 @@
 {
   "name": "tsdown-starter-stackblitz",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.16.0",
   "description": "tsdown starter for StackBlitz",
   "type": "module",
   "license": "MIT",
-  "author": "三咲智子 Kevin Deng <sxzz@sxzz.moe>",
+  "author": "Kevin Deng <sxzz@sxzz.moe>",
   "files": [
     "dist"
   ],
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "tsdown": "latest",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "stackblitz": {
     "installDependencies": false,
